@@ -7,7 +7,7 @@ Minecraft Java Edition 毛笔武器模组的公开发布仓库。本仓库仅提
 | Minecraft | 加载器 | 模组版本 | 下载与说明 |
 | --- | --- | --- | --- |
 | 1.20.1 | Fabric | 1.0.0 | [进入 1.20.1 目录](./1.20.1/) |
-| 1.21.11 | Forge 61.2.1 | 1.5.3-disable_vfs | [进入 1.21.11 目录](./1.21.11/) |
+| 1.21.11 | Forge 61.2.1 | 1.5.4-release | [进入 1.21.11 目录](./1.21.11/) |
 
 每个 Minecraft 版本均使用独立目录，其中只包含该版本的 JAR 和独立 `README.md`。请勿把不同游戏版本或不同加载器的 JAR 混用。
 
@@ -32,9 +32,12 @@ Minecraft Java Edition 毛笔武器模组的公开发布仓库。本仓库仅提
 ├─ 1.5.0/
 │  ├─ README.md
 │  └─ inkbrush-1.5.0+mc1.21.11-forge.jar
-└─ 1.5.3-disable_vfs/
+├─ 1.5.3-disable_vfs/
+│  ├─ README.md
+│  └─ inkbrush-1.5.3-disable_vfs+mc1.21.11-forge.jar
+└─ 1.5.4-release/
    ├─ README.md
-   └─ inkbrush-1.5.3-disable_vfs+mc1.21.11-forge.jar
+   └─ inkbrush-1.5.4-release+mc1.21.11-forge.jar
 ```
 
 ## 通用安装方法
