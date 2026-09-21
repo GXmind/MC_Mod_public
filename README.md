@@ -1,13 +1,15 @@
-# 墨韵 InkBrush
+# 墨韵 InkAura
 
-Minecraft Java Edition 毛笔武器模组的公开发布仓库。本仓库仅提供编译完成的 JAR 与版本说明，不包含源代码。
+Minecraft Java Edition 东方水墨武器模组的公开发布仓库。本项目自 `3.1.0` 起由“墨韵 InkBrush”正式更名为“墨韵 InkAura”。本仓库仅提供编译完成的 JAR 与版本说明，不包含源代码。
+
+为兼容旧世界和资源，3.1.0 仍保留内部模组 ID `inkbrush`；这是正常兼容行为。旧版本目录继续保留发布时的 InkBrush 名称。
 
 ## 版本下载
 
 | Minecraft | 加载器 | 模组版本 | 下载与说明 |
 | --- | --- | --- | --- |
 | 1.20.1 | Fabric | 1.0.0 | [进入 1.20.1 目录](./1.20.1/) |
-| 1.21.1 | NeoForge 21.1.250 | 3.0.0 | [进入 1.21.1 目录](./1.21.1/) |
+| 1.21.1 | NeoForge 21.1.250 | **3.1.0** | [进入 1.21.1 目录](./1.21.1/) |
 | 1.21.11 | Forge 61.2.1 | 2.0.1.0-vfx-env（VFX + 环境联动测试版） | [进入 1.21.11 目录](./1.21.11/) |
 
 每个 Minecraft 版本均使用独立目录，其中只包含该版本的 JAR 和独立 `README.md`。请勿把不同游戏版本或不同加载器的 JAR 混用。
@@ -21,9 +23,12 @@ Minecraft Java Edition 毛笔武器模组的公开发布仓库。本仓库仅提
 
 1.21.1/
 ├─ README.md
-└─ 3.0.0/
+├─ 3.0.0/
+│  ├─ README.md
+│  └─ inkbrush-3.0.0+mc1.21.1-neoforge.jar
+└─ 3.1.0/
    ├─ README.md
-   └─ inkbrush-3.0.0+mc1.21.1-neoforge.jar
+   └─ inkaura-3.1.0+mc1.21.1-neoforge.jar
 
 1.21.11/
 ├─ README.md
@@ -64,7 +69,7 @@ Minecraft Java Edition 毛笔武器模组的公开发布仓库。本仓库仅提
 1. 根据 Minecraft 版本安装目录中标明的加载器及依赖。
 2. 下载对应版本目录内的 JAR。
 3. 将 JAR 放入该游戏实例的 `mods` 文件夹。
-4. 删除同一模组的旧版或其他 Minecraft 版本 JAR，然后启动游戏。
+4. 删除或禁用同一模组的旧版或其他 Minecraft 版本 JAR，然后启动游戏。`InkBrush` 与 `InkAura` JAR 不可同时加载。
 
 ## 闭源说明
 
